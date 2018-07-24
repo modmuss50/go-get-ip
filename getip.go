@@ -10,7 +10,7 @@ func GetIPV4()(string, error) {
 	return getIP("https://v4.ident.me/")
 }
 
-//GetIPV6 returns the IP version 4 address in a string format
+//GetIPV6 returns the IP version 6 address in a string format
 func GetIPV6()(string, error) {
 	return getIP("https://v6.ident.me/")
 }
